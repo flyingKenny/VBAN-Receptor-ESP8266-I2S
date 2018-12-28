@@ -1,4 +1,4 @@
-# Wireless sound card with EESP8266 and VABN protocol
+# Wireless sound card with EESP8266 and VBAN protocol
 The target of this project is to build a WiFi speaker, which is directly fed via UDP stream.
 Application are
 * reducing long analog wires 
@@ -31,7 +31,7 @@ Application are
 
 ## Usage
 Use [VB-AUDIO Software](https://www.vb-audio.com/index.htm) to generate a VBAN Stream. I recommend the [Banana Software](https://www.vb-audio.com/Voicemeeter/banana.htm).
-Setup the VABN Stream:
+Setup the VBAN Stream:
 * Source: e.g. BUS A1
 * Stream Name: Stream1 "Stream1 is hard programmed in software"
 * IP Address To: IP of your ESP device
